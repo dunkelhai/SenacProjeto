@@ -12,6 +12,7 @@ public class Program {
     //Execao vai ser tratada e nao propagada
     public static void main(String[] args) {
 
+        System.out.println("Digite o numero do quarto: ");
         Scanner sc = new Scanner(System.in);
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
